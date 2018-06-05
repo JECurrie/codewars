@@ -1,14 +1,18 @@
 def high(x)
   arr = x.split(" ")
-  max = arr[0]
 
+    print first = arr[0].split("")
+    puts
+    puts first[0].to_i + 1
+=begin
   arr.each do |i|
     if (max < i)
-      max = i
+      puts max = i
       break
     end  
   end   
   max
+=end  
 end
 
-high('man i need a taxi up to ubud')
+high('ba b')

@@ -1,8 +1,6 @@
 def remove_char(s)
-  input = s.chars
-  input.pop 
-  input.delete_at(0)
-  output = input.join
+  s = s[1,s.length-2]
+  puts s
 end
 
-remove_char('eloquent')
+remove_char("eloquent")
