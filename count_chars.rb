@@ -3,7 +3,7 @@ def count_chars(s)
   s.split("").each do |x|
     count[x] += 1
   end
-  count
+  puts count
 end
 
 count_chars("aba")
